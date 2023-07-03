@@ -25,7 +25,7 @@ const Header = () => {
          
         
          <div className='flex  flex-wrap w-1/3 px-6 pt-2 justify-center items-center'>
-           <div className='flex h-7 flex-row border-spacing-2 items-center border  rounded-md border-gray-200 w-full'><Search className=' text-gray-400 pl-2 h-4 w-6'/> <Input/></div>
+           <div className='flex h-7 flex-row border-spacing-2 items-center border  rounded-md border-gray-200 w-full'><Search className=' text-gray-400 pl-2 h-4 w-6'/> <Input className=' flex  justify-center items-center  focus:border focus:rounded-sm border-stone-700 placeholder:text-sm placeholder:text-slate-700' placeholder="What you looking for"/></div>
          </div>
 
          <div className='bg-gray-200  h-10 w-10 flex rounded-full mx-4 justify-center items-center' >
